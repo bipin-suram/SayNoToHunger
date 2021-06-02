@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "652657750846",
+    "project_id": "saynotohunger-b09de",
+    "storage_bucket": "saynotohunger-b09de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652657750846:android:31c37f4f99d8a4944c726f",
+        "android_client_info": {
+          "package_name": "com.example.saynotohunger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652657750846-b8b5h0o8jfs49evdnuqtg53sr84gji27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqD1PaTftEhHOY70h9XYI3p-MMKIWvyRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652657750846-b8b5h0o8jfs49evdnuqtg53sr84gji27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
