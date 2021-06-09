@@ -25,7 +25,7 @@ class NewFoodRequest: AppCompatActivity() {
         reference = database.getReference("Requests")
 
 
-        findViewById<Button>(R.id.newFoodRequest).setOnClickListener {
+        findViewById<Button>(R.id.foodRequest).setOnClickListener {
            Request()
 
             startActivity(Intent(this, FoodRequests::class.java))

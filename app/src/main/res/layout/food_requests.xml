@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/goToVolunteerRegister8"
-        android:layout_width="135dp"
-        android:layout_height="50dp"
+        android:layout_width="138dp"
+        android:layout_height="49dp"
         android:background="#CAC3C3"
         android:text="Food Requests"
         android:textColor="#000000"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/goToVolunteerRegister6"
+        android:id="@+id/availableFood"
         android:layout_width="146dp"
         android:layout_height="50dp"
         android:background="#FFFFFF"
@@ -62,7 +62,7 @@
         tools:layout_editor_absoluteX="35dp" />
 
     <Button
-        android:id="@+id/goToVolunteerRegister4"
+        android:id="@+id/homePage"
         android:layout_width="135dp"
         android:layout_height="50dp"
         android:background="#FFFFFF"
@@ -92,10 +92,11 @@
         android:id="@+id/view6"
         android:layout_width="304dp"
         android:layout_height="66dp"
+        android:layout_marginBottom="252dp"
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
         app:layout_constraintVertical_bias="0.362" />
@@ -104,10 +105,11 @@
         android:id="@+id/view4"
         android:layout_width="304dp"
         android:layout_height="66dp"
+        android:layout_marginBottom="356dp"
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
         app:layout_constraintVertical_bias="0.198" />
@@ -116,10 +118,11 @@
         android:id="@+id/view5"
         android:layout_width="304dp"
         android:layout_height="66dp"
+        android:layout_marginBottom="460dp"
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
         app:layout_constraintVertical_bias="0.519" />
@@ -128,12 +131,13 @@
         android:id="@+id/textView19"
         android:layout_width="273dp"
         android:layout_height="28dp"
+        android:layout_marginBottom="388dp"
         android:text="For 5 people near Downtown"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.613"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
         app:layout_constraintVertical_bias="0.503" />
@@ -142,12 +146,13 @@
         android:id="@+id/textView15"
         android:layout_width="273dp"
         android:layout_height="28dp"
+        android:layout_marginBottom="496dp"
         android:text="Requesting food for 3 people at John's St"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.613"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
         app:layout_constraintVertical_bias="0.352" />
@@ -156,12 +161,13 @@
         android:id="@+id/textView17"
         android:layout_width="273dp"
         android:layout_height="28dp"
+        android:layout_marginBottom="280dp"
         android:text="Need food for 13 people at Derek's NGO"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.613"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
         app:layout_constraintVertical_bias="0.195" />
@@ -170,6 +176,7 @@
         android:id="@+id/textView16"
         android:layout_width="171dp"
         android:layout_height="24dp"
+        android:layout_marginBottom="252dp"
         android:text="Mobile: 306 567 8765"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
@@ -183,6 +190,7 @@
         android:id="@+id/textView18"
         android:layout_width="171dp"
         android:layout_height="24dp"
+        android:layout_marginBottom="364dp"
         android:text="Mobile: 306 578 9585"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
@@ -196,6 +204,7 @@
         android:id="@+id/textView20"
         android:layout_width="171dp"
         android:layout_height="24dp"
+        android:layout_marginBottom="460dp"
         android:text="Mobile: 306 768 4738"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
@@ -212,11 +221,11 @@
         android:background="#FFFFFF"
         android:text="New Request"
         android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.839"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
-        app:layout_constraintVertical_bias="0.855" />
+        app:layout_constraintTop_toTopOf="@+id/availableFood"
+        app:layout_constraintVertical_bias="0.838" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
