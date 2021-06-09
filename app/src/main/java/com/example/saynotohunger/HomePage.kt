@@ -10,6 +10,10 @@ class HomePage: AppCompatActivity () {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home_page)
 
+        findViewById<Button>(R.id.donate).setOnClickListener {
+            startActivity(Intent(this, DonatePage::class.java))
+        }
+
         findViewById<Button>(R.id.goToVolunteerRegister).setOnClickListener {
             startActivity(Intent(this, VolunteerRegister::class.java))
         }
