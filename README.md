@@ -6,5 +6,7 @@ Software - Android studio
 
 Programming language - Kotlin
 
+Database - Firebase
+
 
 Members: Bipin Kumar
