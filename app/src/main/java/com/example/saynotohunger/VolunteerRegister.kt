@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.saynotohunger.R.layout.volunteer_register
+
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -19,6 +20,7 @@ class VolunteerRegister: AppCompatActivity() {
     lateinit var pwd: EditText
     var databaseReference: DatabaseReference? = null
     var database: FirebaseDatabase? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

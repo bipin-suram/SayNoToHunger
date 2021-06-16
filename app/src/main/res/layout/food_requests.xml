@@ -144,8 +144,8 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="273dp"
-        android:layout_height="28dp"
+        android:layout_width="292dp"
+        android:layout_height="24dp"
         android:layout_marginBottom="496dp"
         android:text="Requesting food for 3 people at John's St"
         android:textColor="#000000"
@@ -159,8 +159,8 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="273dp"
-        android:layout_height="28dp"
+        android:layout_width="290dp"
+        android:layout_height="32dp"
         android:layout_marginBottom="280dp"
         android:text="Need food for 13 people at Derek's NGO"
         android:textColor="#000000"

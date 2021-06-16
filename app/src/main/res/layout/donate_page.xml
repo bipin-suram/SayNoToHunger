@@ -6,29 +6,15 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/goToVolunteerRegister8"
-        android:layout_width="135dp"
-        android:layout_height="50dp"
-        android:background="#FFFFFF"
-        android:text="Food Requests"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/goToVolunteerRegister6"
-        android:layout_width="146dp"
-        android:layout_height="50dp"
+        android:id="@+id/availableFood"
+        android:layout_width="197dp"
+        android:layout_height="49dp"
         android:background="#FFFFFF"
         android:text="Available Food"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2"
         app:layout_constraintVertical_bias="0.0" />
@@ -62,8 +48,8 @@
 
     <Button
         android:id="@+id/goToVolunteerRegister4"
-        android:layout_width="135dp"
-        android:layout_height="50dp"
+        android:layout_width="219dp"
+        android:layout_height="49dp"
         android:background="#FFFFFF"
         android:text="Home"
         android:textColor="#000000"
@@ -87,9 +73,10 @@
         app:srcCompat="@drawable/design" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/foodLocation"
         android:layout_width="249dp"
         android:layout_height="46dp"
+        android:layout_marginBottom="152dp"
         android:ems="10"
         android:hint="Location"
         android:inputType="textPersonName"
@@ -100,9 +87,10 @@
         app:layout_constraintVertical_bias="0.744" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/foodAvailableTime"
         android:layout_width="249dp"
         android:layout_height="46dp"
+        android:layout_marginBottom="272dp"
         android:ems="10"
         android:hint="Time Available"
         android:inputType="textPersonName"
@@ -113,61 +101,39 @@
         app:layout_constraintVertical_bias="0.586" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/foodQuantity"
         android:layout_width="249dp"
         android:layout_height="46dp"
+        android:layout_marginBottom="328dp"
         android:ems="10"
         android:hint="Quantity"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
         app:layout_constraintVertical_bias="0.508" />
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="142dp"
-        android:layout_height="106dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
-        app:layout_constraintVertical_bias="0.151"
-        app:srcCompat="@drawable/image" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="101dp"
-        android:layout_height="28dp"
-        android:text="Upload Image"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
-        app:layout_constraintVertical_bias="0.307" />
-
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/description"
         android:layout_width="248dp"
         android:layout_height="51dp"
+        android:layout_marginBottom="384dp"
         android:ems="10"
         android:hint="Item Description"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
         app:layout_constraintVertical_bias="0.425" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/foodCost"
         android:layout_width="249dp"
         android:layout_height="46dp"
+        android:layout_marginBottom="212dp"
         android:ems="10"
         android:hint="Cost"
         android:inputType="textPersonName"
@@ -179,15 +145,16 @@
         app:layout_constraintVertical_bias="0.665" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/donationPost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
         android:background="#FFFFFF"
         android:text="Post"
         android:textColor="#020202"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="@+id/imageView6"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="@+id/goToVolunteerRegister6"
         app:layout_constraintVertical_bias="0.889" />
